@@ -2,6 +2,15 @@
 [![npm version](http://img.shields.io/npm/v/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/react-native-wheel-picker "View this project on npm")
 [![npm version](http://img.shields.io/npm/dm/react-native-wheel-picker.svg?style=flat-square)](https://npmjs.org/package/react-native-wheel-picker "View this project on npm")
 
+# What The Fork?
+## What
+This is a fork of a fork. The original code is from lesliesam. That project was abandoned and did not allow for the color of the separators to be changed. m3rlin94 created a fork to allow that to be changed, but did not add the package to NPM as far as I can tell. So I created this fork to allow a package manager to manage the code base.
+
+## How
+See below for example on how to use the added styles.
+
+
+# react-native-wheel-picker
 ## Introduction
 Cross platform Picker component based on React-native.
 
@@ -17,11 +26,8 @@ Run command
 
 For apps using RN 0.40 or higher, please run
 ```
-npm i react-native-wheel-picker --save
+npm i react-native-wheel-picker-with-color --save
 ```
-For apps using RN 0.39 or less, please run
-```
-npm install --save --save-exact react-native-wheel-picker@1.1.2
 ```
 Add in settings.gradle
 ```
@@ -55,7 +61,7 @@ import {
 } from 'react-native';
 
 
-import Picker from 'react-native-wheel-picker'
+import Picker from 'react-native-wheel-picker-with-color'
 var PickerItem = Picker.Item;
 
 export default class App extends Component<{}> {
