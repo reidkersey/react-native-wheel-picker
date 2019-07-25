@@ -9,6 +9,8 @@ This is a fork of a fork. The original code is from lesliesam. That project was 
 ## How
 See below for example on how to use the added styles.
 
+## Issues
+When using the colors, they must be a 6 digit hex value. Short hand colors (#333, red, etc.) are not supported
 
 # react-native-wheel-picker
 ## Introduction
@@ -32,7 +34,7 @@ npm i react-native-wheel-picker-with-color --save
 Add in settings.gradle
 ```
 include ':react-native-wheel-picker'
-project(':react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/react-native-wheel-picker/android')
+project(':react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/react-native-wheel-picker-with-color/android')
 ```
 Add in app/build.gradle
 ```
